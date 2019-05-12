@@ -24,11 +24,11 @@ int main() {
   {
     std::cout << "A BMI of less than 18.5 indicates that you are underweight, so you may need to put on some weight. You are recommended to ask your doctor or a dietitian for advice. \n";
   }
-  else if (bmi > 18.5 || bmi < 24.9)
+  else if (bmi < 24.9)
   {
     std::cout << "A BMI of 18.5-24.9 indicates that you are at a healthy weight for your height. By maintaining a healthy weight, you lower your risk of developing serious health problems. \n";
   }
-  else if (bmi > 25 || bmi < 29.9)
+  else if (bmi < 29.9)
   {
     std::cout << "A BMI of 25-29.9 indicates that you are slightly overweight. You may be advised to lose some weight for health reasons. You are recommended to talk to your doctor or a dietitian for advice. \n";
   }

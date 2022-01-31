@@ -37,6 +37,6 @@ int main() {
     std::cout << "A BMI of over 30 indicates that you are heavily overweight. Your health may be at risk if you do not lose weight. You are recommended to talk to your doctor or a dietitian for advice. \n";
   }
   
-  return 0;
+  pause;
 
 }
